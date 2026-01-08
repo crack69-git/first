@@ -108,3 +108,40 @@
     width: 100px;
     height: 100px;
 }
+#contact{
+    margin: 111px 0;
+}
+#contact .mot{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url('../pic/gradient3.png'),url('../pic/watch.png');
+    box-shadow: 5px 5px 55px black;
+}
+#contact .mot .contact-container{
+    /* border: 1px solid black; */
+    max-width: 50%;
+    padding: 60px 70px;
+}
+#contact .mot .contact-container h3{
+    font-size: 40px;
+    color: white;
+}
+#contact .mot .contact-container button{
+    width: 164px;
+    height: 64px;
+    background-color: white;
+    color: #F15B22;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.footer-content{
+    border: 1px solid black;
+    width: 1528px;
+    height: 577px;
+    background-color: black;
+}
