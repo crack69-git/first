@@ -47,31 +47,30 @@
     border-radius:8px;
 }
 .whole{
+    background-color: aliceblue;
     display: flex;
     gap: 87px;
-    padding-top: 131px;
+    padding-top: 121px;
     padding-left: 180px;
-}
-.whole .person{
-    border: 1px solid black;
 }
 .whole .info{
     margin-top: 290px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 416px;
 }
+
 .whole .info h1{
     font-size: 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .whole .info p{
     margin-top: 24px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 16px;
 }
 .whole .info ul{
     margin-top: 16px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 16px;
 }
 .whole .info .list{
@@ -83,4 +82,29 @@
 }
 .whole .info .list li span{
     margin-right: 16px;
+}
+.my-plans{
+    /* border: 1px solid black; */
+    margin-top: 111px;
+}
+.my-plans h2{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 40px;
+}
+.my-plans .icon-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 250px;
+    padding-top: 56px;
+}
+.my-plans .icon-container .icon{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.my-plans .icon-container .icon img{
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 100px;
 }
